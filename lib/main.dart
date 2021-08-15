@@ -57,7 +57,8 @@ class _MyHomePageState extends State<MyHomePage> {
             // mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
-              SizedBox(height: 100,),
+              Expanded(child: Container()),
+              // SizedBox(height: 100,),
               Center(
                 child: Text(
                   "Login",
@@ -159,7 +160,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   ],
                 ),
               ),
-              SizedBox(height: 50,),
+              Expanded(child: Container()),
+              // SizedBox(height: 50,),
               Center(
                 child: Text(
                   "Or sign Up Using",
